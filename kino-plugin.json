@@ -1,7 +1,7 @@
 {
   "id": "theme-susejlegend",
   "name": "Susejlegend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apiVersion": 26,
   "entry": "plugin.js",
   "icon": "icon.png",
@@ -35,7 +35,7 @@
         "image": {
           "asset": "background",
           "fit": "cover",
-          "dim": 0.42
+          "dim": 0.22
         }
       },
       "shape": {
