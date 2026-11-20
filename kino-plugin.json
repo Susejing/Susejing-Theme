@@ -1,11 +1,11 @@
 {
   "id": "theme-susejlegend",
   "name": "Susejlegend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 26,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Tema azul nocturno de Susejlegend: ciudad china, faroles y energ\u00eda cian sobre el fondo oficial. / Susejlegend night-blue theme: Chinese city, lanterns and cyan energy as the official background.",
+  "description": "Tema azul nocturno de Susejlegend: ciudad china, faroles y energía cian sobre el fondo oficial. / Susejlegend night-blue theme: Chinese city, lanterns and cyan energy as the official background.",
   "author": "Susejing",
   "homepage": "https://github.com/Susejing",
   "hosts": [],
@@ -169,7 +169,7 @@
       "assets": [
         {
           "id": "background",
-          "path": "assets/background.webp",
+          "path": "background.webp",
           "sha256": "39ce8d0fad0462b3033313bb79d3b9dd75aa88d13ac154a5c7f246f8b170a26d",
           "bytes": 90866
         }
