@@ -1,7 +1,7 @@
 {
   "id": "theme-susejlegend",
   "name": "Susejlegend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "apiVersion": 26,
   "entry": "plugin.js",
   "icon": "icon.png",
@@ -170,8 +170,8 @@
         {
           "id": "background",
           "path": "background.webp",
-          "sha256": "39ce8d0fad0462b3033313bb79d3b9dd75aa88d13ac154a5c7f246f8b170a26d",
-          "bytes": 90866
+          "sha256": "55084759ebbe80642d6db0299dca51455b617aaee36fe6de6292794d268d782c",
+          "bytes": 252236
         }
       ],
       "adjustable": {
