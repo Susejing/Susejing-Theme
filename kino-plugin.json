@@ -1,98 +1,188 @@
 {
-  "id": "archive-org",
-  "name": "Internet Archive",
-  "version": "1.4.2",
-  "apiVersion": 3,
+  "id": "theme-susejlegend",
+  "name": "Susejlegend",
+  "version": "1.0.0",
+  "apiVersion": 26,
   "entry": "plugin.js",
-  "description": "Películas de dominio público y televisión clásica de archive.org",
-  "author": "kinotvapp",
-  "homepage": "https://github.com/kinotvapp/kino-plugin-archive",
-  "hosts": [
-    "archive.org",
-    "*.archive.org"
-  ],
-  "capabilities": [
-    "search",
-    "home",
-    "browse",
-    "episodes",
-    "resolve",
-    "download"
-  ],
-  "color": "#E0A030",
   "icon": "icon.png",
-  "settings": [
+  "description": "Tema azul nocturno de Susejlegend: ciudad china, faroles y energ\u00eda cian sobre el fondo oficial. / Susejlegend night-blue theme: Chinese city, lanterns and cyan energy as the official background.",
+  "author": "Susejing",
+  "homepage": "https://github.com/Susejing",
+  "hosts": [],
+  "categories": ["themes"],
+  "appThemes": [
     {
-      "key": "url1",
-      "label": "Dirección 1",
-      "type": "url",
-      "hint": "https://archive.org/details/… o una búsqueda"
-    },
-    {
-      "key": "cat1",
-      "label": "Categoría 1",
-      "type": "text",
-      "hint": "Opcional: nombre de la fila en el Home"
-    },
-    {
-      "key": "url2",
-      "label": "Dirección 2",
-      "type": "url",
-      "hint": "https://archive.org/details/… o una búsqueda"
-    },
-    {
-      "key": "cat2",
-      "label": "Categoría 2",
-      "type": "text",
-      "hint": "Opcional: nombre de la fila en el Home"
-    },
-    {
-      "key": "url3",
-      "label": "Dirección 3",
-      "type": "url",
-      "hint": "https://archive.org/details/… o una búsqueda"
-    },
-    {
-      "key": "cat3",
-      "label": "Categoría 3",
-      "type": "text",
-      "hint": "Opcional: nombre de la fila en el Home"
-    },
-    {
-      "key": "url4",
-      "label": "Dirección 4",
-      "type": "url",
-      "hint": "https://archive.org/details/… o una búsqueda"
-    },
-    {
-      "key": "cat4",
-      "label": "Categoría 4",
-      "type": "text",
-      "hint": "Opcional: nombre de la fila en el Home"
-    },
-    {
-      "key": "url5",
-      "label": "Dirección 5",
-      "type": "url",
-      "hint": "https://archive.org/details/… o una búsqueda"
-    },
-    {
-      "key": "cat5",
-      "label": "Categoría 5",
-      "type": "text",
-      "hint": "Opcional: nombre de la fila en el Home"
-    },
-    {
-      "key": "url6",
-      "label": "Dirección 6",
-      "type": "url",
-      "hint": "https://archive.org/details/… o una búsqueda"
-    },
-    {
-      "key": "cat6",
-      "label": "Categoría 6",
-      "type": "text",
-      "hint": "Opcional: nombre de la fila en el Home"
+      "id": "susejlegend",
+      "name": {
+        "es": "Susejlegend",
+        "en": "Susejlegend"
+      },
+      "colors": {
+        "accent": "#22D3EE",
+        "onAccent": "#041018",
+        "background": "#050B18",
+        "surface": "#0C1528",
+        "surfaceHigh": "#142238",
+        "railPanel": "#08101C",
+        "textPrimary": "#E8F4FF",
+        "textSecondary": "#8FB4D4",
+        "focus": "#67E8F9",
+        "onFocus": "#041018",
+        "outline": "#1E3A5F",
+        "border": "#1E4A6E"
+      },
+      "background": {
+        "image": {
+          "asset": "background",
+          "fit": "cover",
+          "dim": 0.42
+        }
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 16,
+        "chipRadius": 18,
+        "dialogRadius": 18,
+        "inputRadius": 12,
+        "heroRadius": 20,
+        "railItemRadius": 14,
+        "cardBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05,
+        "bodyScale": 1.0
+      },
+      "style": {
+        "gloss": 0.35
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "surfaces": {
+        "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": ["#22D3EE", "#0284C7"],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#67E8F9"
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "solid",
+            "color": "#0C1528"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#1E4A6E"
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "solid",
+            "color": "#0C1528"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#1E4A6E"
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "solid",
+            "color": "#0A1E32"
+          },
+          "stroke": {
+            "width": 1.5,
+            "gradient": {
+              "type": "gradient",
+              "colors": ["#67E8F9", "#22D3EE"],
+              "angle": 135
+            }
+          },
+          "glow": {
+            "color": "#22D3EE",
+            "radius": 10,
+            "alpha": 0.5
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#08101C"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#1E3A5F"
+          }
+        },
+        "card": {
+          "glow": {
+            "color": "#22D3EE",
+            "radius": 8,
+            "alpha": 0.18
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 2,
+            "color": "#E8F4FF"
+          },
+          "glow": {
+            "color": "#22D3EE",
+            "radius": 12,
+            "alpha": 0.4
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 2,
+            "color": "#E8F4FF"
+          },
+          "glow": {
+            "color": "#22D3EE",
+            "radius": 10,
+            "alpha": 0.45
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "color": "#1E4A6E"
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": ["#67E8F9", "#0284C7"],
+            "angle": 0
+          }
+        }
+      },
+      "assets": [
+        {
+          "id": "background",
+          "path": "assets/background.webp",
+          "sha256": "39ce8d0fad0462b3033313bb79d3b9dd75aa88d13ac154a5c7f246f8b170a26d",
+          "bytes": 90866
+        }
+      ],
+      "adjustable": {
+        "colors.accent": {
+          "swatches": ["#22D3EE", "#38BDF8", "#818CF8", "#FBBF24"]
+        },
+        "background": true,
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "typography.scale": { "min": 0.9, "max": 1.2 }
+      },
+      "pluginColors": "respect"
     }
   ]
 }
